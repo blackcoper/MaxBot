@@ -1,0 +1,20 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="General">
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:icon="@drawable/volume"
+            android:key="pref_allow_tts"
+            android:title="Enable Text to Speak"
+            />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Setting Server">
+        <EditTextPreference
+            android:defaultValue="@null"
+            android:icon="@drawable/ic_world"
+            android:key="pref_access_token"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:summary=""
+            android:title="Client Access Token" />
+    </PreferenceCategory>
+</PreferenceScreen>
